@@ -9,13 +9,14 @@ body {
     background-color: hsl(212, 45%, 89%) ;
 }
 
-dialog {
+div {
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
     width: 350px;
     margin: auto;
     top: 50%;
     bottom: 50%;
+    box-shadow: 2px 2px 5px 2px hsla(217, 45%, 22%, 0.473);
 }
 
 section {
@@ -27,7 +28,7 @@ img {
     width: 300px
 }
 
-h1 {
+h2 {
     color: hsl(218, 44%, 22%);
     font-size: 20px;
     font-weight: 700;
