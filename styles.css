@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Origin, sans-serif;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%) ;
+}
+
+dialog {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 350px;
+    margin: auto;
+    top: 50%;
+    bottom: 50%;
+}
+
+section {
+    padding: 25px;
+}
+
+img {
+    border-radius: 20px;
+    width: 300px
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer {
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+footer a {
+    color: hsl(220, 15%, 55%);
+}
+
+footer a:hover {
+    color: hsl(218, 12%, 35%);
+}
